@@ -146,8 +146,19 @@ header {
 
 
 /*////////// NAVBAR //////////*/
+#navbar {
+  position: fixed;
+  top: 0;
+  left: o;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1 px solid #ccc;
+  text-align: center;
+}
 
-
+#navbar nav {
+  border-left: 1px solid #ccc;
+}
 
 /*////////// LOGO //////////*/
 
